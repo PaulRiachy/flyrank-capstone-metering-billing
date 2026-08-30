@@ -77,4 +77,5 @@ Mock Stripe -> signed webhook -> verify -> dedupe -> subscription sync
 
 ## Scope and limitation
 
-The implementation intentionally uses a mocked payment provider for deterministic learning and tests. It does not claim to be a real Stripe integration. A final submission that strictly requires live Stripe test-mode acceptance must add the real Stripe adapter and test-mode evidence before submission.
+The implementation intentionally uses a mocked payment provider for deterministic learning and tests. It does not claim to be a real Stripe integration. 
+
